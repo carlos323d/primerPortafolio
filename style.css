@@ -1,0 +1,180 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Iso&display=swap');
+
+  
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* me permite deslizar cuando hago clic en los links del menu*/
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    background-image: url('imajenes/971.jpg');
+    background-position: center;
+    background-size: cover;
+}
+    
+    /*ESTRUCTURA DE LA PAGINA*/
+
+.contenedor-pricipal{
+    margin: 5vh 5vw;
+    border-radius: 15px;
+    background-color: rgba(2, 62, 125,0.9);
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    padding: 0 80px;
+}
+.nav{
+    
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+
+.nav-logo{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    width: 100%;
+    align-items:center;   
+    cursor: pointer; 
+}
+
+.nav-logo:hover{
+    transition: 0.2s ease;
+    color: #fb8500;
+}
+
+.nav ul{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+    
+}
+
+.nav ul li { 
+   list-style: none;   
+}
+
+.nav ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: #00171f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition:   0.3s ease ;
+}
+
+.nav ul li a:hover{
+    color: #ffc300;
+}
+
+.contenido-1{
+    border-radius: 0px 0px 15px 15px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 90% 10%;
+    align-items: center;
+    align-content: center; 
+    
+}
+.contenedor-img-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.contenito-1-img{
+    margin-top: 50px;
+    background-image: url('imajenes/Default_Tiny_cute_and_adorable_fox_adventurer_dressed_in_a_warm_overc_1_9cf54e3b-fd00-4edc-93b2-ff1c2ed3d612_1-transformed.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    width: 60%;
+    
+}
+
+.descripcion{
+  
+}
+
+.descripcion h2{
+    margin-bottom: 30px;
+    color: #fb8500;
+}
+.descripcion h1{
+    
+    margin-bottom: 30px;
+    font-weight: bold;
+   /*font-family: 'Water Brush', cursive;*/
+   font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    color: #ffc300;
+}
+.descripcion h3{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    color: #56cfe1;
+    line-height: 1.46;
+}
+
+.botton-cv{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #fb8500;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Press Start 2P', cursive;    
+    transition: 0.3 ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botton-cv:hover{
+    transition: 0.2s ease;
+    background-color: #7400b8;
+    color: #fb8500;
+}
+
+.bar-nav{
+    width: 100%;
+}
+.bar-nav ul{
+    list-style: none;
+    display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 15%;
+   
+}
+
+
+.bar-nav ul li a{
+    color: #ffc300;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.bar-nav ul li a:hover{
+    transition: 0.2s ease;
+    color: #fb8500;
+}
+
+
